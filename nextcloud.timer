@@ -1,0 +1,7 @@
+Description=Daemon timer for crontab nextcloud for podman/docker
+
+[Timer]
+OnUnitActiveSec=3min
+
+[Install]
+WantedBy=timers.target
